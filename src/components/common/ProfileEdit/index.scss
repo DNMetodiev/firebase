@@ -1,0 +1,36 @@
+.profile-edit-inputs {
+  display: grid;
+  margin-top: 40px;
+  gap: 20px;
+
+  label {}
+
+
+  .common-input {
+    width: 300px;
+    height: 40px;
+  }
+
+}
+
+.close-icon {
+  cursor: pointer;
+}
+
+.save-container {
+  display: flex;
+  justify-content: center;
+}
+
+.save-btn {
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  color: lightseagreen;
+  font-size: 18px;
+  margin-top: 20px;
+}
